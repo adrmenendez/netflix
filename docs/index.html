@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- Open Sans font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- header font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <title>Evaluación final</title>
+  </head>
+  <body class="body">
+    <header class="header container">
+      <h1 class="header_title">Fakeflix</h1>
+
+      <form class="form">
+        <input
+          type="text"
+          class="form_input js-search-input"
+          placeholder="Search..."
+        />
+        <i class="fas fa-search form_button js-search-button"></i>
+        <a class="form_button--go js-searchbar-button">Go</a>
+      </form>
+    </header>
+
+    <main class="main">
+      <section class="grid container">
+        <ul class="series js-series-main"></ul>
+
+        <section class="favsection">
+          <section class="favsection_title">
+            <h2 class="favsection_title--text">My list</h2>
+            <i class="far fa-trash-alt favsection_title--reset js-reset-button"></i>
+          </section>
+          <ul class="favsection_series js-series-favorites"></ul>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <section class="footer_media">
+        <i class="fab fa-instagram footer_media--item"></i>
+        <i class="fab fa-facebook-square footer_media--item"></i>
+        <i class="fab fa-twitter footer_media--item"></i>
+        <i class="fab fa-youtube footer_media--item"></i>
+      </section>
+      <section class="footer_lists">
+        <ul>
+          <li><a href="" class="footer_lists--item">Audio y subtítulos</a></li>
+          <li><a href="" class="footer_lists--item">Zona de prensa</a></li>
+          <li><a href="" class="footer_lists--item">Privacidad</a></li>
+          <li><a href="" class="footer_lists--item">Contáctanos</a></li>
+        </ul>
+        <ul>
+          <li><a href="" class="footer_lists--item">Audiodescripción</a></li>
+          <li><a href="" class="footer_lists--item">Inversores</a></li>
+          <li><a href="" class="footer_lists--item">Avisos legales</a></li>
+        </ul>
+        <ul>
+          <li><a href="" class="footer_lists--item">Centro de ayuda</a></li>
+          <li><a href="" class="footer_lists--item">Empleo</a></li>
+          <li><a href="" class="footer_lists--item">Preferencias de cookies</a></li>
+        </ul>
+      </section>
+      <p class="footer_copy">&copy;FAKEFLIX | Todos los derechos reservados</p>
+    </footer>
+
+    <script type="text/javascript" src="./assets/js/main.js"></script>
+  </body>
+</html>

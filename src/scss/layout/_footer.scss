@@ -1,0 +1,32 @@
+.footer {
+  padding-top: 100px;
+  &_media {
+    color: $secondFont;
+    font-size: 28px;
+    &--item {
+      padding: 0 4px;
+    }
+    :hover {
+      color: $mainColor;
+    }
+  }
+  &_lists {
+    padding-top: 24px;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    &--item {
+      color: $secondFont;
+      margin-left: 12px;
+    }
+    :hover {
+      color: $mainColor;
+    }
+  }
+  &_copy {
+    color: $secondFont;
+    padding-top: 12px;
+    padding-bottom: 18px;
+    font-size: 12px;
+  }
+}

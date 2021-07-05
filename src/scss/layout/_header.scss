@@ -1,0 +1,62 @@
+.header {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  &_background {
+    background-color: $backgroundColor;
+  }
+  &_title {
+    font-size: 32px;
+    color: $mainColor;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    &--item {
+      color: $mainColor;
+    }
+  }
+  &_nav {
+    min-width: 350px;
+    display: flex;
+    justify-content: flex-end;
+    &--space {
+      text-transform: uppercase;
+      color: $fontColor;
+      font-weight: bold;
+      padding-left: 20px;
+    }
+  }
+  .form {
+    &_input {
+      display: none;
+    }
+    &_button {
+      color: $fontColor;
+      font-size: 20px;
+      cursor: pointer;
+      transform: rotate(90deg);
+    }
+  }
+}
+
+.show {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  .form_input {
+    display: inline;
+    margin-right: 16px;
+    width: 100px;
+    height: 30px;
+    border-bottom: 1px solid $secondFont;
+    padding-left: 16px;
+    background-color: $backgroundColor;
+    color: $fontColor;
+    font-size: 16px;
+    @include tablet {
+      width: 250px;
+    }
+  }
+}
