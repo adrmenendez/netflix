@@ -1,6 +1,9 @@
 # FAKEFLIX
 
-Hey!! Este es un proyecto realizado duarnte la evaluación final del módulo 2 del bootcamp de Adalab. Se trata de un buscador de series sencillo realizado usando Javascript.
+![image](https://user-images.githubusercontent.com/79847060/124567955-bb830380-de44-11eb-90c7-eb2863afa7a1.png)
+
+
+Hey!! Este proyecto se trata de un buscador de series sencillo realizado usando Javascript.
 
 La web se conecta a la API de 'https://www.tvmaze.com/' para recoger los datos y pintarlos en la web usando Javascript. Una vez pintadas las series, se pueden añadir y quitar de la sección de favoritos de la izquierda haciendo click sobre ellas. Igualmente podemos eliminarlas de la sección de favoritos clickando en la 'x' o eliminar toda la lista clickando en la papelera.
 
@@ -12,7 +15,7 @@ La web se conecta a la API de 'https://www.tvmaze.com/' para recoger los datos y
 
 1. **Crea tu propio repositorio.**
 1. Descarga este el proyecto desde GitHub.
-   - No recomendamos que clones este repo ya que no podrás añadir commits.
+   - No clones este repo ya que no podrás añadir commits.
 1. **Copia todos los ficheros** de este en la carpeta raíz de tu repositorio.
    - Recuerda que debes copiar **también los ficheros ocultos**.
    - Si has decidido clonar este repo, no debes copiar la carpeta `.git`. Si lo haces estarás machacando tu propio repositorio.
@@ -33,8 +36,8 @@ npm start
 
 Este comando:
 
-- **Abre una ventana de Chrome y muestra tu página web**, al igual que hace el plugin de VS Code Live Server (Go live).
-- También **observa** todos los ficheros que hay dentro de la carpeta `src/`, para que cada vez que modifiques un fichero **refresca tu página en Chrome**.
+- **Abre una ventana de Chrome y muestra tu página web**.
+- También **observa** todos los ficheros que hay dentro de la carpeta `src/`, para que cada vez que modifiques un fichero **se refresque tu página en Chrome**.
 - También **procesa los ficheros** HTML, SASS / CSS y JS y los **genera y guarda en la carpeta `public/`**. Por ejemplo:
   - Convierte los ficheros SASS en CSS.
   - Combina los diferentes ficheros de HTML y los agrupa en uno o varios ficheros HTML.
